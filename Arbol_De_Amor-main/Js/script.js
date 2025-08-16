@@ -70,7 +70,9 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Buenos días, mi niña hermosa ❤️. Solo quería enviarte este mensaje para recordarte lo mucho que te amo y lo especial que eres para mí. Te deseo un hermoso Día de la Novia (Otra vez jsjs)y espero con ansias poder verte de nuevo. Besos 😘`;  } else {
+    text = `Buenos días, mi niña hermosa ❤️. Solo quería enviarte este mensaje para recordarte lo mucho que te amo y lo especial que eres para mí. Te deseo un hermoso Día de la Novia (Otra vez jsjs)y espero con ansias poder verte de nuevo. Besos 😘 - Hola chula solo paso por aqui para decirte que me gustas mucho te amo mucho no sales de mi cabeza es raro este sentimiento se me hace dificil concentrarme en mis cosas cada dia me pregunto como estas 
+    con quien estas, mis celos me comen por dentro cuando me dices unas cosas... no te las dire por que no quiero que las uses en mi contra, sabes aveces cuando me dices que hay chicos que te hablan y como que quieren de tu ayuda en esos momentos me da ganas de besarte en frente de ellos hacerle saber que eres mia o no se irme a sentar a tu costado y tocarte la cara o todo tu cuerpo para que sepan de quien eres bueno si es que estaria en ese lugar contigo
+    bueno amor ya me desahogue un poco de los sentimientos que tengo y que me queman por dentro, espero que cuando leas esto te encuentre bien y si no lo estas te aguantas................ no mentira mi niña sabes que puedes contar conmigo para cualquier cosa. me gusta saber que me ves como alguien que les puedes contar ese tipo de cosas, bueno chau amor. TE AMO UN MONTON ❤️ (si ves esto hazmelo saber, por que si no recibo una respuesta o una señal de esto ya no hare cosas asi)`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
